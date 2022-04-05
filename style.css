@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
+}
+
+.container {
+width: 100%;
+}
+header {
+    /* background: #3B96F4; */
+    width: 100vw;
+    height: 100px;
+    padding: 0 25px;
+   
+   
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    
+    
+   
+}
+.title h1 {
+    color: #111;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.input-container {
+text-align: center;
+width: 500px;
+margin: 0 auto;
+margin-top: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.input-container h2 {
+    text-align: left;
+    color: rgb(128, 125, 125);
+    font-size: 1.2em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.btn {
+    padding: 5px 10px;
+    border-radius: 50%;
+    border:none;
+    font-size: 1em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+   background: #fff;
+   color: #111;
+   transition: 0.3s ease;
+   cursor: pointer;
+}
+.btn:hover {
+    background: #111;
+    color: #fff;
+     box-shadow: 0 5px 15px rgb(0 0 0 / 25%);;
+    
+}
+.btn:active {
+    transform: scale(0.85);
+}
+#location {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    
+    
+}
+.input {
+width: 500px;
+border: none;
+border-bottom: 1px solid rgb(135, 132, 132);
+padding-bottom: 4px;
+font-size: 2em;
+
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+::placeholder {
+    opacity: 0.3;
+}
+
+.temp-choose {
+    text-align: center;
+    margin: 10px auto 0;
+    width: 400px;
+}
+.temp-choose h2 {
+font-weight: 400;
+font-size: 1.2em;
+text-transform: uppercase;
+color: #111
+}
+.temp-choose label {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.temp-choose label:not(last-child) {
+    margin-right: 15px;
+}
+
+.card {
+text-align: left;
+width: 100vw;
+display: flex;
+justify-content: space-between;
+align-items: center;
+box-shadow: 0 5px 15px rgb(0 0 0 / 25%);
+width: 850px;
+max-width: 700px;
+height: 400px;
+max-height: 500px;
+margin: 50px auto 50px;
+border-radius: 20px;
+padding: 60px 70px;
+}
+.card-info h1 {
+    
+    font-weight: 600;
+}
+.card-info h2 {
+    font-weight: 500;
+    padding-top: 5px;
+}
+.card-info h3 {
+    font-weight: 400;
+    padding-top: 5px;
+}
+.card-info h4 {
+    font-weight: 400;
+    padding-top: 5px;
+}
+.card-img img {
+width: 200px;
+min-width: 200px;
+}
+
+.bottom-title {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto 0;
+}
+.title2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+   
+}
+.title2 h2 {
+    color: rgb(128, 125, 125);
+    font-size: 1.2em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.title-line hr {
+    width: 300px;
+    margin-top: 30px;
+    
+  
+}       
+
+@media(max-width:650px) {
+    header {
+        
+        width: 630px
+       
+    }
+    .input-container {
+        margin-right: 10px;
+    }
+    .input {
+
+        text-align: center;
+    }
+
+    .card {
+        border-radius: 0;
+    }
+}

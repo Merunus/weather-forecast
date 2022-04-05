@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Forecast</title>
+</head>
+<body>
+    <header>
+        <div class="title">
+             <h1>My weather</h1>
+        </div>
+    </header>
+
+   <div class="container">
+        
+       <div class="input-container">
+           <input autocomplete="off" class = "input" name = "input" type="text"  placeholder="Type city..."><button id = "btn" class = "btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+           
+       </div>
+      
+       <div class="card">
+        <div class="card-info">
+            <h1 id = "city" >Location:</h1>
+            <h1 id = "temp">Temperature: 
+            <h2 style = "text-transform: capitalize;"id = "description">Weather description:
+            <h3 id = "wind-speed">Wind speed:</h3>
+            <h3 id = "humidity"> Humidity: </h3>
+        </div>
+        <div class="card-img">
+            <img id = "icon" src="aimages/weather-forecast-icon-18.jpg" alt="">
+        </div>
+       </div>
+       <div class="bottom-title">
+            <div class="title2">
+                <h2>My weather</h2>
+            </div>
+            <div class="title-line">
+                <hr>
+            </div>
+        </div>
+        
+   </div>
+   <script src="https://kit.fontawesome.com/0b0db4d2c6.js" crossorigin="anonymous"></script>
+
+   <script src = "app.js"></script>
+</body>
+</html>
